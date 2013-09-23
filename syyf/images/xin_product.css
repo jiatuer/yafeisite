@@ -1,0 +1,44 @@
+/*产品模块CSS*/
+/*产品列表*/
+.plist {
+	width:610px;
+	text-align:left;
+	margin:0;
+	padding:0;
+}
+.plist ul{
+	float:left;
+	width:610px;
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+.plist ul li{
+	float:left;
+	text-align:center;
+	padding:10px;
+}
+
+.plist ul li img{
+	width:170px;
+	height:120px;
+	border:0;
+        padding: 4px;
+	border: 1px solid #CCCCCC;
+}
+
+.plist span a{
+	padding-top:10px;
+	display:block;
+	height:20px;
+	width:180px;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	overflow:hidden; 
+}
+
+/*产品图片*/
+.pic{
+	width:560px;
+	overflow:hidden;
+}

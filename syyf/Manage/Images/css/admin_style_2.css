@@ -1,0 +1,331 @@
+@import url("ubb.css");
+body {
+	font-family: 宋体;font-size : 12px;color : #333;
+	margin : 0;padding : 0;
+	line-height : 20px;
+}
+td{font-family:宋体; font-size: 12px; line-height: 20px; line-height: 150%;}
+input,textarea {
+	font-family:verdana, arial, helvetica, sans-serif,宋体; text-decoration: none; border-top-width: 1px; border-left-width: 1px; font-size: 12px; border-bottom-width: 1px; border-right-width: 1px
+}
+select,option {
+	font-family:verdana, arial, helvetica, sans-serif,宋体; border-top-width: 1px; border-left-width: 1px; font-size: 12px; border-bottom-width: 1px; border-right-width: 1px
+}
+span {font-family:verdana, arial, helvetica, sans-serif,宋体; font-size: 12px; position: static}
+form { display: inline; margin: 0px; padding: 0px; }
+legend {color: #008800;}
+br {overflow: hidden; line-height: 3px}
+
+a { color:#394351; text-decoration:none; }
+a:hover { color:#0066FF; text-decoration: underline}
+
+a.showmenu {color:#333366; text-decoration:none; }
+a.showmenu:hover {color:#FF8E20; text-decoration: underline}
+
+a.showlink {color:red; text-decoration:none; }
+a.showlink:hover {color:#333366; text-decoration: underline}
+
+a.showtitle {color: #fff;text-decoration: none;}
+a.showtitle:hover {color: #fff;text-decoration: underline;}
+
+legend {color: #008800;}
+br {overflow: hidden; line-height: 3px}
+.divbody {color: #333333;text-align:right}
+
+td.tableRow1 {
+	background:#EBF5EC;
+	height: 25px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+td.tableRow2 {
+	background: #F3FAF4;
+	height: 25px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+td.tableRow {
+	background:#F3FAF4;
+}
+.tableBorder {
+	border: 1px #2650a6 solid ; 
+	background: #e0e0e0;
+	font: 12px;
+	width: 98%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+th {
+    background-image: url(../admin_topbg2.jpg);*/
+    background: #333366;
+    color: white;
+    font-size: 12px;
+    font-weight:bold;
+    height: 26;
+}
+
+td.TableTitle {
+	background-color: #5A6576;
+	color:#F6F6F6;
+	font-size: 12px;
+	font-weight:bold;
+	height: 25;
+}
+.TableBorder {
+	border: 1px #333366 solid ; 
+	background-color: #C9C9C3;
+	font: 12px;
+	width: 98%
+}
+.TableBorders1 {
+	border-top: 1px #333366 solid;
+	border-bottom: 0px;
+	border-left: 1px #333366 solid;
+	border-right: 1px #333366 solid;
+	background-color: #EEEEE6;
+	font: 12px;
+	width: 98%
+}
+.TableBorders2 {
+	border-top: 0px;
+	border-bottom: 1px #333366 solid;
+	border-left: 1px #333366 solid;
+	border-right: 1px #333366 solid;
+	background-color: #EEEEE6;
+	font: 12px;
+	width: 98%
+}
+.TableBorders3 {
+	border-top: 0px;
+	border-bottom: 0px;
+	border-left: 1px #333366 solid;
+	border-right: 1px #333366 solid;
+	background-color: #CFCFCF;
+	font: 12px;
+	width: 98%
+}
+.TableBorder1 {
+	border: 2px #333366 solid ; 
+	background-color: #CFCFCF;
+	font: 12px;
+	width: 65%
+}
+.TableBorder2 { 
+	background-color: #CFCFCF;
+}
+td.BodyTitle {
+	background-image: url(../admin_bg_2.gif);
+	background-color: #8c8c8c;
+	color: #666;
+}
+
+#spanButton {
+	padding:2,10,0,10 px;margin: 0px;float: left;color: #bbbbbb;height: 21px;text-align: center;
+	border-right: #ACA899 1px solid;
+	border-top: #ffffff 1px solid; 
+	font-size: 12px; background: #EEEEE0;
+	border-left: #FFFFFF 1px solid;
+	border-bottom: #ACA899 1px solid;
+}
+.HighLightR {
+	padding:2,10,0,10 px;margin: 0px;float: left;color: #000000;height: 21px;text-align: center;
+	border-right: #606060 1px solid;
+	border-top: #ffffff 1px solid; 
+	font-size: 12px; background: #E8E8E8;
+	border-left: #FFFFFF 1px solid;
+	border-bottom: #606060 1px solid;
+	cursor: hand;
+	/*cursor: crosshair;*/
+}
+.DisabledR {
+	padding:2,10,0,10 px;margin: 0px;float: left;color: #C0C0C0;height: 21px;text-align: center;
+	border-right: #606060 1px solid;
+	border-top: #ffffff 1px solid; 
+	font-size: 12px; background: #E8E8E8;
+	border-left: #FFFFFF 1px solid;
+	border-bottom: #606060 1px solid;
+	cursor: e-resize;
+}
+
+
+td.TableTitle1 { background-color: #333366; Color: #FFFFFF; }
+td.TableTitle2 { background-color: #E4E8EF; }
+td.TableBody1 { background-color: #FFFFFF; line-height: normal; }
+td.TableBody2 { background-color: #E4E8EF; line-height: normal; }
+.tableBorder5 { border: 1px #333366 solid; background-color: #D6E0EF; }
+.normalTextSmall { font-size : 11px; color : #FF0000; font-family: Verdana, Arial, Helvetica, sans-serif; }
+.magicframe { border:1px solid #CCCCCC; }
+.PageInput { border: solid 1px #D6E0EF; BACKGROUND-COLOR: #FAFAFA; height : 18px; FONT-FAMILY: Arial; FONT-SIZE:11.5px; }
+.RomNumber {
+	overflow:hidden;
+	height:365px;
+	background-color:highlight;
+	border-right:0px;
+	text-align:right;
+	font-family: tahoma;
+	/*font-family: Fixedsys;*/
+	font-size:12px;
+	font-weight:bold;
+	color:highlighttext;
+	cursor:default;
+}
+.txtmain {
+	height:365px;
+	width:92%;
+	font-family: tahoma;
+	color:highlight;
+	font-size:12px;
+	font-weight:bold;
+	border-left:0px;
+}
+.Button {
+	BORDER-RIGHT: #404040 1px solid;
+	BORDER-TOP: #ffffff 1px solid; 
+	FONT-SIZE: 9pt; BACKGROUND: #D4D0C8;
+	BORDER-LEFT: #FFFFFF 1px solid;
+	BORDER-BOTTOM: #404040 1px solid;
+	padding-top:3px;
+}
+.Copyright {
+	padding-right: 1px; border-top: #384780 1px dashed; padding-left: 1px; padding-bottom: 1px; font: 11px verdana,arial,helvetica,sans-serif; color: #2F3C6C; padding-top: 1px; text-decoration: none
+}
+.DottedLine {
+	border-bottom: #384780 1px dotted
+}
+.style1 {color: #FF0000}
+.style2 {color: #0000FF}
+.style3 {color: #009900}
+.quote {
+	margin:5px 20px;border:1px solid #CCCCCC;padding:5px; background:#F3F3F3
+}
+.HtmlCode {
+	margin:5px 20px;border:1px solid #CCCCCC;padding:5px;background:#FDFDDF;font-size:14px;font-family:Tahoma;font-style : oblique;line-height : normal ;font-weight:bold;
+}
+/*
+a.tt{ color: #000000; text-decoration: none }
+a.tt:hover { color: #336699; text-decoration: none; position: relative; right: 0px; top: 1px }
+*/
+.menuskin {
+	BORDER-RIGHT: #666666 1px solid ;
+	BORDER-TOP: #666666 1px solid;
+	BORDER-LEFT: #666666 1px solid;
+	BORDER-BOTTOM: #666666 1px solid;
+	BACKGROUND-IMAGE: url(images/menubg.gif);
+	POSITION: absolute;
+	VISIBILITY: hidden;
+.menuitems {
+	PADDING-RIGHT: 1px;
+	PADDING-TOP: 1px;
+	PADDING-LEFT: 1px;
+	PADDING-BOTTOM: 1px;
+	MARGIN: 2px;
+	font-size:9pt;
+	line-height:14pt;
+}
+mouseoverstyle {
+	PADDING-RIGHT: 0px;
+	PADDING-LEFT: 0px;
+	PADDING-BOTTOM: 0px;
+	PADDING-TOP: 0px;
+	BORDER-RIGHT: #0B008B 1px solid;
+	BORDER-TOP: #0B008B 1px solid;
+	BORDER-LEFT: #0B008B 1px solid;
+	BORDER-BOTTOM: #0B008B 1px solid;
+	BACKGROUND-COLOR: #FFEEC2 
+}
+.menuskin A {PADDING-RIGHT:10px;PADDING-LEFT:30px;}
+#TableTitleLink A:link,#TableTitleLink A:visited{COLOR:000000;}
+
+/*UBBeditor 样式*/
+/*-------------------------------------------------*/
+#editorbody{
+	background-color: #f7f7f7;
+	border-width:1px;
+	border-style:solid;
+	border-color:#ffffff #696969 #696969 #ffffff;
+}
+#editorHead{
+	padding:1px 6px 1px 6px;
+}
+.editorTools{
+
+}
+
+.Toolsbar{
+	background: url(images/bar.gif) no-repeat 2px 5px;
+	padding-left:8px;
+	height:24px;
+	float:left;
+}
+.ToolsUL{
+	display:inline;
+	list-style:none;
+	margin:0px;
+	padding:1px;
+}
+.ToolsUL Li{ 
+	float:left;
+	padding:1px;
+}
+.ToolsUL Li select{ 
+	font-size:12px;
+}
+
+.Toolsbutton:link,.Toolsbutton:visited{
+	border:1px solid #c6c3bd;
+	width:18px;
+	height:18px;
+	display:block;
+	padding:2px;
+	background: #efefef url(images/toolbar.buttonbg.gif) repeat-x;
+	/*opacity: 0.70;
+	filter: alpha(opacity=70);*/
+}
+.Toolsbutton:hover{
+	background:#C1D2EE;
+	border:1px solid #316AC5;
+}
+.Smilie:link,.Smilie:visited{
+	border:1px solid #fff;
+	display:block;
+	padding:2px;
+	width:19px;
+	height:19px;
+}
+.Smilie:hover{
+	background:#C1D2EE;
+	border:1px solid #316AC5;
+}
+.UBBSmiliesPanel{
+	background:#fff;
+	border:1px solid #000;
+	text-align:left;
+	padding:0px;
+	position: absolute;
+	visibility:hidden;
+}
+.editorContent{
+	width:100%;
+	padding:0px 6px 6px 4px !important;
+	padding:0px 4px 6px 4px;
+	text-align:center;
+}
+.editTextarea{
+	border:1px solid #999;
+	font-size:12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	padding:1px;
+	overflow:auto;
+    width:100%;
+	text-align:left;
+}
+.ToolsUL li {
+	font-size:12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+/*-------------------------------------------------*/
+.UBBContainer{border:1px solid #ccc;background:#f7f7f7;border-left:3px solid;}
+.UBBTitle{font-weight:bold;padding:4px;background:#eee;border-bottom:1px dotted #ccc;}
+.UBBContent{padding:6px;line-height:160%;}
+.UBBContent textarea {width:550px;margin-bottom:2px;}

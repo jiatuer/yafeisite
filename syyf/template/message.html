@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>{{c_name}}--留言板</title>
+
+<link href="images/xin_main.css" rel="stylesheet" type="text/css" />
+<link href="images/xin_message.css" rel="stylesheet" type="text/css" />
+<SCRIPT src="images/jquery.js" type=text/javascript></SCRIPT>
+<SCRIPT src="images/FunNav.js" type=text/javascript></SCRIPT>
+</head>
+<body>
+{{header}}
+<TABLE width="999" border=0 align="center" cellPadding=0 cellSpacing=0 id=nav_main>
+  <TBODY>
+    <TR>
+      <TD width="211" valign="top" background="images/mainflbj.png"><table width="150" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+          <td height="190" valign="top">
+            <img src="images/footfbj1-1.png" width="211" height="89" /></td>
+        </tr>
+      </table>
+          <table width="211" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td><img src="images/footfbj1-2.png" width="211" height="89" /></td>
+            </tr>
+            <tr>
+              <td><img src="images/footfbj1-3.png" width="211" height="64" /></td>
+            </tr>
+            <tr>
+              <td><img src="images/footfbj2.png" width="211" height="49" /></td>
+            </tr>
+            <tr>
+              <td><img src="images/footfbj3.png" width="211" height="47" /></td>
+            </tr>
+        </table></TD>
+      <TD width="618" height="500" valign="top" bgcolor="#333333"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td height="100"><div align="center"><img src="images/AboutUs.jpg" width="561" height="91" /></div></td>
+        </tr>
+      </table>
+          <table width="96%" border="0" align="center" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="left" valign="top"><div class="gblist"> {{messagelist}} </div></td>
+            </tr>
+            <tr>
+              <td height="30" align="right" valign="middle"><div align="center">{{pager}}</div></td>
+            </tr>
+            <tr>
+              <td height="20" align="center" valign="middle">&nbsp;</td>
+            </tr>
+            <tr>
+              <td height="20" align="center" valign="top"><table width="98%" border="0" align="center" cellpadding="0" cellspacing="1" bgcolor="#D6E9F9">
+                  <tr>
+                    <td bgcolor="#333333"><table width="98%" border="0" align="center" cellpadding="0" cellspacing="0">
+                        <form id="form1" name="form1" method="post" action="?action=1">
+                          <tr>
+                            <td height="25" colspan="2" align="left" valign="middle" bgcolor="#6A6A6A" class="mu">发表留言</td>
+                          </tr>
+                          <tr>
+                            <td width="130" height="30" align="center" valign="middle">姓名：</td>
+                            <td height="30" align="left" valign="middle"><input name="name" type="text" id="name" size="30" maxlength="20" /></td>
+                          </tr>
+                          <tr>
+                            <td width="130" height="30" align="center" valign="middle">电话：</td>
+                            <td height="30" align="left" valign="middle"><input name="tel" type="text" id="tel" size="30" maxlength="30" /></td>
+                          </tr>
+                          <tr>
+                            <td width="130" height="30" align="center" valign="middle">邮箱：</td>
+                            <td height="30" align="left" valign="middle"><input name="mail" type="text" id="mail" size="30" maxlength="100" /></td>
+                          </tr>
+                          <tr>
+                            <td width="130" height="80" align="center" valign="middle">留言：</td>
+                            <td height="80" align="left" valign="middle"><textarea name="info" cols="50" rows="5" id="info"></textarea></td>
+                          </tr>
+                          <tr>
+                            <td height="40" align="center" valign="middle">&nbsp;</td>
+                            <td height="40" align="left" valign="bottom"><input type="submit" name="Submit" value="提交" />
+                                <input type="reset" name="Submit2" value="重置" /></td>
+                          </tr>
+                          <tr>
+                            <td height="10" colspan="2" align="center" valign="middle">&nbsp;</td>
+                          </tr>
+                        </form>
+                    </table></td>
+                  </tr>
+              </table></td>
+            </tr>
+          </table></TD>
+      <TD width="170" bgcolor="#000000" id=nav_mainr> <DIV id=navfuntop></DIV>
+      <DIV id=navfun></DIV></TD>
+    </TR>
+    <TR>
+      <TD background="images/mainflbj.png">&nbsp;</TD>
+      <TD bgcolor="#333333">&nbsp;</TD>
+      <TD bgcolor="#000000">&nbsp;</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+
+<table width="999" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#000000">
+  <tr>
+    <td><DIV id=footerf></DIV></td>
+  </tr>
+</table>
+{{footer}}
+</body>
+</html>

@@ -1,0 +1,52 @@
+/* 留言模块CSS*/
+
+.gblist {
+	width:600px;
+	border:1px solid #D6E9F9;
+	margin:10px;
+	background-color:#333333;
+}
+.gblist .gbtop {
+	margin:1px auto 1px;
+	background-color:#333333;
+	line-height:22px;
+	font-size:12px;
+	
+}
+
+.gblist .gbc { /*留言之间间隔*/
+	height:10px;
+}
+
+.gblist .gbtop ul{
+
+	width:560px;
+	height:22px;
+	background-color:#333333;
+	list-style:none;
+}
+.gblist .gbtop ul li{
+	float:left;
+}
+
+.gblist .gbinfo {
+	margin:5px auto 5px;
+	line-height:22px;
+	font-size:12px;
+	width:580px;
+	overflow:hidden;
+	/*border:1px solid  #FF0000;*/
+}
+.gblist .gbhf {
+	margin:5px;
+	width:550px;
+	font-size:12px;
+	padding-left:30px;
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-right:8px;
+	background:url(ico_1.gif) 10px 12px no-repeat;
+	border:1px solid #EEE;
+background-color:#333333;
+
+}

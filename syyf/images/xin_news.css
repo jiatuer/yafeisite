@@ -1,0 +1,89 @@
+/*新闻模块CSS*/
+.ntitle
+{
+font-size:14px;
+font-weight:bold;
+}
+.ntime
+{
+font-size:12px;
+color:#666666;
+padding-right:30px;
+}
+.ninfo
+{
+font-size:14px;
+line-height:200%;
+
+}
+
+/*新闻列表*/
+.newslist {
+	width:600px;
+	text-align:left;
+	margin:0;
+	padding:0;
+}
+.newslist ul{
+	width:600px;
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+.newslist ul li{
+	text-align:left;
+	padding-left:5px;
+	background-image:url(line.gif);
+	background-position:bottom;
+	background-repeat:repeat-x;
+}
+.newslist ul li a{
+	padding-top:10px;
+	width:600px;
+	height:26px;
+	display:block;
+	text-decoration:none;
+}
+
+.newslist .cj a{
+	display:block;
+	width:200px;
+	font-size:12px;
+	padding-left:31px;
+}
+.newslist .cj a:hover{
+	display:block;
+	height:20px;
+	width:200px;
+	font-size:12px;
+}
+.plist .cj a{
+	display:block;
+	width:200px;
+	font-size:12px;
+	padding-left:31px;
+}
+.plist .cj a:hover{
+	display:block;
+	height:20px;
+	width:200px;
+	font-size:12px;
+}
+.username {
+	BORDER-RIGHT: #e7e7e7 1px solid; BORDER-TOP: #e7e7e7 1px solid; PADDING-LEFT: 29px; FONT-SIZE: 12px; BACKGROUND: url(../image/index/username_1.gif) #f4f4f4 fixed no-repeat left top; BORDER-LEFT: #e7e7e7 1px solid; COLOR: #286993; BORDER-BOTTOM: #e7e7e7 1px solid; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.tb_link {
+	BORDER-TOP: #96948e 1px dashed; PADDING-TOP: 8px
+}
+.password {
+	BORDER-RIGHT: #e7e7e7 1px solid; BORDER-TOP: #e7e7e7 1px solid; PADDING-LEFT: 29px; FONT-SIZE: 12px; BACKGROUND: url(../image/index/password_1.gif) #f4f4f4 fixed no-repeat left top; BORDER-LEFT: #e7e7e7 1px solid; COLOR: #286993; BORDER-BOTTOM: #e7e7e7 1px solid; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.logtb_style {
+	BORDER-RIGHT: #eeeeee 1px solid; PADDING-RIGHT: 4px; PADDING-LEFT: 4px; BORDER-LEFT: #eeeeee 1px solid
+}
+.login_text {
+	PADDING-LEFT: 5px; FONT-SIZE: 12px; COLOR: #286993; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.logtbin_style {
+	PADDING-BOTTOM: 5px; BORDER-BOTTOM: #a3a3a3 1px dashed
+}

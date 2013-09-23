@@ -1,0 +1,91 @@
+body {
+	font-family: 宋体;font-size : 12px;color : #333;
+	margin : 0;padding : 0;
+	background : #86CA8E;
+	scrollbar-face-color: #333366;scrollbar-highlight-color: #ffffff;
+	scrollbar-shadow-color: #cccccc; scrollbar-3dlight-color: #cccccc; 
+	scrollbar-arrow-color: #330000; scrollbar-track-color: #f6f6f6; 
+	scrollbar-darkshadow-color: #ffffff;
+	line-height : 20px;
+}
+p, ol, ul, dl,dt, dd, li {
+	font-family: 宋体;
+	font-size : 12px;
+	line-height : 180%;
+	margin : 0;
+	padding : 0;
+}
+dt,dd,li {text-align : left;list-style : none;}
+h1, h2, h3, h4, h5, h6, ul, ol, li {display : block;}
+
+form, embed {display : inline;margin : 0;padding : 0;}
+img, a img {vertical-align : middle;border : none;}
+a {font-family: 宋体;color : #111;text-decoration : none;}
+a:hover {font-family: 宋体;color : #f30;text-decoration : underline;}
+
+div#pageMain {
+	margin: 0 0px;
+	width:auto;height: 100%;
+	background:#f1f1f1;
+	text-align : center;
+	border: 5px solid #86CA8E;
+	
+}
+
+div#mainBody {
+	overflow: auto;margin:auto;
+	width:auto;height: 100%;
+	border-width: 1px;
+	border-top: 0px solid threedhighlight;
+	border-left: 0px solid threedhighlight;
+	border-right: 0px solid threedshadow;
+	border-bottom: 0px solid threedshadow;
+}
+
+div#pageMain dl {
+	margin: 0px 5px;padding : 0px;
+	width:auto;border-right:1px solid #ccc;
+	/*border: medium none; */
+	background: #e0e0e0 url(../leftbg.gif) repeat-y left;
+	clear: both;
+}
+div#pageMain dt {font-weight : bold;letter-spacing: 1px;}
+div#pageMain dd {
+	padding: 0px; margin: 0px; border: 0px;
+	background: #eee;
+	border-top: 1px solid #fff;
+	border-left: 5px solid #e0e0e0;
+	padding-right:3px;
+}
+div#pageMain li {
+	padding: 0px; margin: 0px; border: 0px;
+	text-align: left;
+	text-indent: 10px;
+}
+.menu_title, .menu_title1, .menu_title2 {
+	padding: 0px; margin: 0px; border: 0px; padding-left: 15px;
+	border-left: 5px solid #498542; 
+	border-top: 1px solid #ffffff; 
+	border-bottom: 1px solid #c0c0c0;
+	width: auto;text-align: left;
+	line-height: 26px;
+	height: 26px;
+	background: #e0e0e0;
+	cursor:pointer!important;
+	cursor:crosshair;
+	display:block;
+}
+.menu_title {
+	background: url(../arrow001.gif) no-repeat right center;
+}
+.menu_title1{
+	background: url(../arrow001.gif) no-repeat right center;
+}
+.menu_title2{
+	background: url(../arrow002.gif) no-repeat right center;
+}
+dl#systemInfo {border-bottom:1px solid #ccc;}
+
+#pageMain li,#table1 td {text-decoration:none;font-size:12px;color:#000;height:20px;filter:dropshadow(offX=1,offY=1,color=#FFFFFF);}
+#pageMain li,#table1 td a{text-decoration:none;font-size:12px;color:#000;height:20px;filter:dropshadow(offX=1,offY=1,color=#FFFFFF);}
+#pageMain li,#table1 td a:hover{text-decoration:none;font-size:12px;color:#000;height:20px;filter:dropshadow(offX=1,offY=1,color=#FFFFFF);}

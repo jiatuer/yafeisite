@@ -1,0 +1,120 @@
+A {
+	TEXT-DECORATION: none
+}
+A:link {
+	COLOR: #000000
+}
+A:visited {
+	COLOR: #000000
+}
+A:hover {
+	COLOR: #ff0000
+}
+A:active {
+	COLOR: #ff0000
+}
+TD {
+	FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+BODY {
+	SCROLLBAR-FACE-COLOR: #f6f6f6; FONT-SIZE: 9pt; BACKGROUND: center 50%; SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; SCROLLBAR-SHADOW-COLOR: #cccccc; COLOR: #000000; SCROLLBAR-3DLIGHT-COLOR: #cccccc; SCROLLBAR-ARROW-COLOR: #000000; SCROLLBAR-TRACK-COLOR: #efefef; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; SCROLLBAR-DARKSHADOW-COLOR: #ffffff; TEXT-DECORATION: none
+}
+.menu {
+	BORDER-RIGHT: buttonshadow 2px solid; PADDING-RIGHT: 2px; BORDER-TOP: buttonhighlight 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 9pt; Z-INDEX: 2; BACKGROUND: menu; VISIBILITY: hidden; PADDING-BOTTOM: 2px; FONT: menu; OVERFLOW: visible; BORDER-LEFT: buttonhighlight 1px solid; WIDTH: 90pt; CURSOR: default; PADDING-TOP: 2px; BORDER-BOTTOM: buttonshadow 2px solid; POSITION: absolute
+}
+.mainmenu {
+	BORDER-RIGHT: buttonshadow 2px solid; PADDING-RIGHT: 2px; BORDER-TOP: buttonhighlight 1px solid; PADDING-LEFT: 2px; BACKGROUND: #d4d0c8; LEFT: 47px; VISIBILITY: hidden; PADDING-BOTTOM: 2px; FONT: 9pt/16px "menu"; BORDER-LEFT: buttonhighlight 1px solid; WIDTH: 130pt; CURSOR: default; PADDING-TOP: 2px; BORDER-BOTTOM: buttonshadow 2px solid; POSITION: absolute; TOP: 5px
+}
+.mainmenushow {
+	BORDER-RIGHT: buttonshadow 2px solid; PADDING-RIGHT: 2px; BORDER-TOP: buttonhighlight 1px solid; PADDING-LEFT: 2px; Z-INDEX: 2; BACKGROUND: #d4d0c8; VISIBILITY: visible; PADDING-BOTTOM: 2px; FONT: 9pt "menu"; BORDER-LEFT: buttonhighlight 1px solid; WIDTH: 130pt; CURSOR: default; PADDING-TOP: 2px; BORDER-BOTTOM: buttonshadow 2px solid; POSITION: absolute
+}
+.childmenushow {
+	BORDER-RIGHT: buttonshadow 2px solid; PADDING-RIGHT: 2px; BORDER-TOP: buttonhighlight 1px solid; PADDING-LEFT: 2px; Z-INDEX: 2; BACKGROUND: #d4d0c8; VISIBILITY: visible; PADDING-BOTTOM: 2px; FONT: 9pt "menu"; BORDER-LEFT: buttonhighlight 1px solid; WIDTH: 100pt; CURSOR: default; PADDING-TOP: 2px; BORDER-BOTTOM: buttonshadow 2px solid; POSITION: absolute
+}
+.childmenu {
+	BORDER-RIGHT: buttonshadow 2px solid; PADDING-RIGHT: 2px; BORDER-TOP: buttonhighlight 1px solid; PADDING-LEFT: 2px; Z-INDEX: 2; BACKGROUND: #d4d0c8; VISIBILITY: hidden; PADDING-BOTTOM: 2px; FONT: 9pt "menu"; BORDER-LEFT: buttonhighlight 1px solid; WIDTH: 90pt; CURSOR: default; PADDING-TOP: 2px; BORDER-BOTTOM: buttonshadow 2px solid; POSITION: absolute
+}
+.menushow {
+	BORDER-RIGHT: buttonshadow 2px solid; PADDING-RIGHT: 2px; BORDER-TOP: buttonhighlight 1px solid; PADDING-LEFT: 2px; BACKGROUND: #d4d0c8; VISIBILITY: visible; PADDING-BOTTOM: 2px; FONT: 9pt "menu"; BORDER-LEFT: buttonhighlight 1px solid; WIDTH: 80pt; CURSOR: default; PADDING-TOP: 2px; BORDER-BOTTOM: buttonshadow 2px solid; POSITION: absolute
+}
+.MenuItem {
+	BACKGROUND-POSITION: center 50%; PADDING-LEFT: 10px; FONT-SIZE: 9pt; WIDTH: 100%; CURSOR: default; COLOR: black; LINE-HEIGHT: 25px; FONT-FAMILY: "menu"; BACKGROUND-COLOR: menu
+}
+.MouseRightItem {
+	PADDING-LEFT: 10px; FONT-SIZE: 9pt; WIDTH: 100%; CURSOR: default; COLOR: black; LINE-HEIGHT: 16px; BACKGROUND-COLOR: menu
+}
+.MouseRightHighlightItem {
+	PADDING-LEFT: 10px; FONT-SIZE: 9pt; WIDTH: 100%; CURSOR: default; COLOR: white; LINE-HEIGHT: 16px; BACKGROUND-COLOR: highlight
+}
+.HighlightItem {
+	PADDING-LEFT: 10px; FONT-SIZE: 9pt; WIDTH: 100%; CURSOR: default; COLOR: white; LINE-HEIGHT: 25px; BACKGROUND-COLOR: highlight
+}
+.MenuItemDisable {
+	PADDING-LEFT: 10px; FONT-SIZE: 9pt; WIDTH: 100%; CURSOR: default; COLOR: graytext; LINE-HEIGHT: 16px; BACKGROUND-COLOR: menu; TEXT-DECORATION: blink
+}
+.LableUP {
+	BORDER-RIGHT: #ffffff 2px solid; BORDER-TOP: #ffffff 1px solid; BORDER-LEFT: #ffffff 2px solid; CURSOR: default; BORDER-BOTTOM: #ffffff 1px; BACKGROUND-COLOR: #ffffff
+}
+.LableDown {
+	BORDER-TOP: #ffffff 1px; CURSOR: default; BORDER-BOTTOM: #ffffff 1px solid; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none
+}
+.BtnMouseOver {
+	BORDER-RIGHT: #666666 2px solid; BORDER-TOP: #ffffff 2px solid; BORDER-LEFT: #ffffff 2px solid; CURSOR: default; BORDER-BOTTOM: #666666 2px solid
+}
+.Btn {
+	CURSOR: default; BACKGROUND-COLOR: #e6e6e6
+}
+.Lable {
+	BACKGROUND-COLOR: #e6e6e6
+}
+.BtnMouseDown {
+	BORDER-RIGHT: #ffffff 2px solid; BORDER-TOP: #666666 2px solid; BORDER-LEFT: #666666 2px solid; CURSOR: default; BORDER-BOTTOM: #ffffff 2px solid
+}
+.Btns {
+	
+}
+.VLine {
+	BORDER-RIGHT: #999999 1px solid
+}
+.MenuItemBg {
+	BACKGROUND-POSITION: center 50%; WIDTH: 34px; LINE-HEIGHT: 25px; BACKGROUND-REPEAT: no-repeat
+}
+.MenuItemSelectBg {
+	BORDER-RIGHT: #000000 thin solid; BACKGROUND-POSITION: center center; BORDER-TOP: #ffffff thin solid; BORDER-LEFT: #ffffff thin solid; BORDER-BOTTOM: #000000 thin solid; BACKGROUND-REPEAT: no-repeat
+}
+.ButtonList {
+	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #ffffff 1px solid; BORDER-LEFT: #ffffff 1px solid; CURSOR: default; BORDER-BOTTOM: #999999 1px solid; BACKGROUND-COLOR: #e6e6e6
+}
+.TempletItem {
+	CURSOR: default
+}
+.TempletSelectItem {
+	CURSOR: default; COLOR: white; BACKGROUND-COLOR: highlight
+}
+.LableUP {
+	BORDER-RIGHT: #000000 1px; BORDER-TOP: #000000 1px; BORDER-LEFT: #000000 1px; CURSOR: hand; BORDER-BOTTOM: #ffffff 1px; BACKGROUND-COLOR: #e6e6e6
+}
+.LableDown {
+	BORDER-RIGHT: #333333 1px solid; BORDER-TOP: #333333 1px solid; BORDER-LEFT: #333333 1px solid; CURSOR: hand; BORDER-BOTTOM: #000000 1px solid; BACKGROUND-COLOR: #cccccc
+}
+.input {
+	BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: #ffffff 1px solid; WIDTH: 80px; COLOR: #000000; BORDER-BOTTOM: #737373 1px solid; HEIGHT: 18px; BACKGROUND-COLOR: #ffffff
+}
+.select {
+	BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: #ffffff 1px solid; WIDTH: 80px; COLOR: #000000; BORDER-BOTTOM: #000000 1px solid; HEIGHT: 18px; BACKGROUND-COLOR: #ffffff
+}
+submit {
+	BORDER-RIGHT: #4d4d4d 1px solid; BORDER-TOP: #4d4d4d 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #4d4d4d 1px solid; COLOR: #000000; LINE-HEIGHT: 25px; BORDER-BOTTOM: #4d4d4d 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff
+}
+SELECT {
+	BORDER-RIGHT: #c0c0c0 1px solid; BORDER-TOP: #c0c0c0 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: #c0c0c0 1px solid; BORDER-BOTTOM: #c0c0c0 1px solid
+}
+OPTION {
+	BORDER-RIGHT: #c0c0c0 1px solid; BORDER-TOP: #c0c0c0 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: #c0c0c0 1px solid; BORDER-BOTTOM: #c0c0c0 1px solid
+}
+INPUT {
+	BORDER-RIGHT: #c0c0c0 1px solid; BORDER-TOP: #c0c0c0 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: #c0c0c0 1px solid; BORDER-BOTTOM: #c0c0c0 1px solid
+}
+TEXTAREA {
+	BORDER-RIGHT: #c0c0c0 1px solid; BORDER-TOP: #c0c0c0 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: #c0c0c0 1px solid; BORDER-BOTTOM: #c0c0c0 1px solid
+}
